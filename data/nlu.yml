@@ -1,0 +1,17 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - สวัสดี
+    - ดีจ้า
+
+- intent: sleep
+  examples: |
+    - ง่วงงะ
+    - อยากนอน
+
+- intent: goodbye
+  examples: |
+    - บายๆ
+    - ลาละ

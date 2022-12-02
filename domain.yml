@@ -1,0 +1,21 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - sleep
+
+responses:
+  utter_greet:
+  - text: "ว่าไงพวก"
+
+  utter_sleep:
+  - text: "ไปนอนดิ"
+
+  utter_goodbye:
+  - text: "ลาขาด"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
